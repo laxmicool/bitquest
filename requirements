@@ -1,0 +1,393 @@
+BitQuest
+
+There are a lot of things that can be created within the Bitcoin ecosystem. 
+Gaming is the next evolvement with digital currency. The idea is to have an open world platform that anyone can join and begin playing.
+It is multiplayer so every user that joins becomes part of a team. (Not sure if they will get to pick their team OR if we will 
+need to load balance to make the teams even. Also, some people that are friends will join and they will need to be on the same team. 
+See balancing of teams.)
+
+F. A. Q. 
+
+How to I Start?
+The first screen is a login screen
+The next screen after that shows all the pre-game options
+Training Facility and Kill Delay should be optional.  (When users first play, these will be checked by default. 
+After playing 3x then they are unchecked by default)
+
+Gameplay:
+Player1 is dropped at a random spawnpoint. 
+[When a player first starts, it should be easy to start playing right away. ]
+
+
+What are Team Colors?
+Users pick a team color on the pre-game options screen
+(Should only be enough team colors available for the number of nations on the map;
+Reserved colors are not available – like Yellow due to Safe Zones (F);
+Only colors for current teams are available;
+Should be an option if they want to create a new team;
+Need to force-balance teams so 1 team does not get too many people; )
+
+
+Do I choose a User Name?
+Users can type any name they want;  (pending certain reserved words or swear words)
+
+
+What else happens at that START of the game?
+Every player starts with:
+100 coins
+100 lifepoints
+100 in ammo (bubbles?)
+(Each 1 of the 3 listed above equal 1 satoshi)
+1 coin = 1 lifepoint = 1 ammo = 0.00000001 BTC
+
+
+Do I have to pay real money to play this game??
+Yes - but it equals out to be less than a fraction of a penny.
+
+Huh?
+Once it gains popularity, users will pay 300 satoshis in order to play this game. 
+Today’s value = 0.001268 USD or one tenth of a cent  (  < 0.01)
+
+
+What is this game similar to?
+Gameplay based on:
+Risk - capturing nations; defeating enemies; gain armies; (gain satoshis)
+Agar.io - simplicity; instant gameplay; attack other players; 
+Minecraft - graphics and some gameplay
+Zelda - encountering enemies and world-discovery
+Starcraft - world-discovery; teams; join forces; minerals as money; black cloud gameplay;
+AA 2.5 - balancing of teams; ghosting; having objectives; 
+Capture the Flag - This will be a side element; Good when players run out of ammo; 
+	Takes users to jail; 
+
+
+Is satoshis and items in the game transferred to real life?
+Yes. However, we are still sorting out Real Life Legitimacy
+[Need to clarify this, but in order so that we aren’t just “creating money out of thin air” we should  have to 
+financially back all coins and “virtual items” in the game with actual BTC in a cold wallet. ]
+[Can only add users if we have the financial backing to add them. (Or they can buy in for their own account)	(NEED CLARIFICATION)  ]
+
+
+What TERMS are used in this guide?
+Terms
+GS		Gridsquare			Square on the map that players are trying to control; 
+KDT		Kingdom_Deed_Token	Given to team that controls all gridsquares/nations
+LDT 		Land_Deed_Token		1 per GS; Given to owner of GS
+		Nation				Territory made up of Gridsquares
+		Teams				Groups that players join when game starts
+		Armies				Formed from teams once team has entire Nation;
+
+
+Other Terms
+
+Ammo
+-Each ammo cost 1 satoshi. 
+-When a player STARTS on the map (spawns) they will receive 300 ammo for free. After that they will need to purchase ammo. 
+-Need to test out scenarios to see what the best starting amount is. 
+-You kill other players in the game by shooting them with ammo. 
+-See also “Game Currency and Ammo”
+
+Ammo Pods 
+-These are spread out throughout the map. Can not move them. +1 ammo every 3 seconds you touch it.
+(NEED CLARIFICATION)
+
+Air Strikes - (Phase 2)
+-Users can call down airstrikes. 
+-Players get 1 airstrike per game.
+-Additional airstrikes can be purchased. 
+
+Army
+-When a nation is fully captured, they have the ability to create a national army
+-If players from the same team fight in a group they are called a militia
+(NEED CLARIFICATION)
+
+Balancing of Teams
+-When a player joins a server, they may have the option to pick a nation to join. (pick color)
+-Need to discuss this because some friends will join and they will want to be on the same team. This is important because we want 
+to try and prevent Ghosting. Ghosting is where player1 is on blue team and player2 is on red team. They are friends IRL and 
+they are communicating IRL over teamspeak or phone, etc. The first person that dies then reports to the other player the 
+location of other players. To prevent this, we need to have teammates be on teams. 
+-Will also need to balance the number of players on each team for each server. 
+
+
+Bond 
+-Bond can be paid by an opposing player that is being held in a nation’s jail. Not sure what this will cost. 
+-Should be standard across all nations. 
+-When they pay bond they are safely transported back to their home country. 
+(Bond is similar to monopoly where you pay $50 to get out of jail.)
+
+Bounty
+-Gameplay is based on a bounty system.  When player1 kills player2 then player1 will have an opportunity to get “a certain amount” 
+of player2’s money. (Possibly all the money in hot wallet)
+-Possibly have a hot wallet and cold wallet for each player. A hot wallet is the satoshis that they collect for that round. 
+If they die, all of the satoshis fall out of player2’s pockets and it is on the ground. Free for all for any players in the area
+to get all player2’s satoshis. 
+-Before any round starts, the user has the option to move BTC between their hot wallet and cold wallet.
+Cold wallet funds are secure regardless if they die during a round. 
+-Players can set the amount of money in their hot wallet at the beginning of the round. 
+-Players can only buy stuff in-game if they have money in their hot wallet  (See WALLETS)
+
+Boundary
+-A national boundary is one that shows on the map of the border of each nation. 
+-Nations will share boundary lines with other nations. 
+-There should be Safe Zones throughout Satoshi Kingdom. 
+
+Capture a player
+-Bitquest will have a “capture the flag” feature. The rules are basically the same. If you are a blue team player and 
+there is a red team player in the blue team nation, then you are able to “capture” the red team player by moving up to that player 
+and moving over them so that you can “secure” them. There should be an automatic transport that arrives and transports them to jail. 
+
+Capture the Nation
+-Capture all gridsquares in a Nation and the user / team captures that Nation; Winning player gets to type a name of the 
+nation; Would need to have a list of banned words (F-word, S-word, etc.)
+
+-Once the nation is captured, it remains that team’s color (on their flag) until the entire border gridsquares 
+are captured by a team of a different color. For example, if blue team captures all the gridsquares, the nation’s flag will 
+remain blue until all gridsquares that are alligned to the border have been captured by another team. 
+(Even if it is multiple teams)  At that point, the flag becomes white/neutral colored and the nation is considered unowned. 
+
+
+
+
+
+COINS
+-Coins are satoshis. They have real life value that users can withdraw at any time by entering a wallet address. They can be stored
+in a user’s hot wallet or cold wallet. 
+-Players can “send” coins to other players in the game using the Q key on the keyboard. 
+
+Communication and Connecting
+-Messages
+-Direct Message
+-Chat
+-Users should have the ability to add another player as a friend in the game
+-Need to find a way to have real life friends join the same team. (Prevent Ghosting)
+-Players should be able to see their own teammates in the game and on the mini-map
+
+Economy
+See page 10 for details on the Economy of Satoshi Kingdom
+
+Framework 
+-Open world map framework;  Players can move freely over entire map except for obstacles. 
+-The map should NOT be flat. There should be hills and obstacles so that it makes it harder for users to see each other. This adds 
+a layer of complexity. (See Layout)
+-A user can create an account with their email address. 1 email = 1 account
+-There should be a test area where players can practice. 
+-1 life per hour. If they die, they must wait 1 hour to respawn. Respawn should be near Safe Zone AND should have a kill 
+delay option of 2 minutes  (NEED CLARIFICATION)
+-No MAX on ammo, lifepoints, or coins.  (NEED CLARIFICATION)
+
+Fence (phase 2)
+-A fence is an object in the game that users can use to protect themselves from other players that are trying to shoot them. 
+-Players should be able to push the fence into position and then hide behind it. 
+-Fences can block bubbles/ammo. Can move a fence by pushing it. 
+-When you secure a nation you get extra fences. There should be 1 fence in each square at the start. 
+
+Game currency and Ammo:
+-Ammo = Bubbles; 1 bubble cost 0.00000001;
+-Currency = Coins; Users can “shoot” coins to other users using “Q” button; If they miss, anyone can grab them; (finders keepers)
+Could also have random currency around the game; Game must have ability to deposit and withdraw funds IRL to another bitcoin wallet
+ 
+Starting balance = 	100 in ammo, lifepoints, and coins
+Each Kill = 		20
+Bounty = 		(set amount)  (phase 2)
+Bubble = 		1
+GridSquare = 		50
+Nation = 		Pot (winnings will come from a pot that collects satoshis over time)
+
+Gridsquares
+-Need gridlines over entire map; Each gridsquare is identified with ID number
+-Players must battle other players for current gridsquare they are in;
+-All gridquares in a nation must be captured before the nation is considered taken. 
+
+Gridsquare Control
+-You get control of an open gridsquare if you are the only team on it for 10 seconds OR you are the first to kill 5 enemies
+on that square (still undecided)
+-If Team Blue has control of that square, a different team would need to stand on that square for 30 seconds OR kill 5 blue 
+team members on that square to get control of it
+
+Jail
+-Every nation has 1 jail. When an opposing player is captured, they are transported to that nation’s jail. (similar to capture the flag)
+-Players can be released from jail by either a jail break or they can pay bond. 
+
+Jail Break
+-An opposing player can cause a jail break if they find the jail and move up to it and they “break” the jail open. 
+They have to move up to any wall of the jail and hold himself on the same point of the wall for x seconds. (possibly 20 seconds?)
+That will cause a hole big enough for captured players to escape. As they escape they will still be in an opposing territory 
+and can be caught and transported back to jail. 
+
+Kill Delay
+-Users cannot be shot / killed for first 2 minutes when they START.   
+(This is optional. By default it is checked/applied)
+
+
+
+
+Layout
+-Spawnpoints should be in areas of the map that are secluded and away from other users if possible. This promotes safety while
+also allowing player to adjust to surroundings right away. 
+-Servers should auto balance. See Balancing of Teams
+-The map should have hills and valleys. This is similar to AA 2.5 where you have maps that can be hilly and players are only 
+allowed to see a specific distance. 
+-Maps could also have fog, dust storms, and other natural weather that makes visibility difficult.
+-All of these features make the game more realistic
+-Ideally gridsquares are about the same size across the entire map. This can vary based on obstacles and also because we do not 
+want this to be a square map overall. We want this to feel like a kingdom or nation IRL
+
+Lifepoints
+-This is how you can tell if a player is alive or dead. 
+-Players start with 100 when they START. 
+-When the player’s lifepoints reach 0, they are dead. 
+-After a player is dead, they must respawn. 
+-When a player dies, all the satoshi in their hot wallet is released to the map where their body is. 
+-The player’s body is dead on the map for 10 seconds. 
+-Possible that users can find their way to Life Pods in order to get more life
+
+Life Pods
+-These are spread out throughout the map. 
+-Can not move them. +1 life every second you touch it.
+(NEED CLARIFICATION)
+
+Lotto - (Phase 2)
+-Can be a Jackpot
+-Users can buy in for 1 satoshi and a drawing and winner every hour
+
+Map
+-Still deciding if there should be an option to bring up a larger map or only have mini-map
+
+Mini-Map
+-There should be a mini-map in the lower left corner
+-Players need to be able to see where they are at on the map
+-It should show various objects on the map
+
+
+Obstacles 
+-rocks
+-water		(user can drown in water)
+-giant trees  
+-Users cannot move through obstacles
+-Users can move into the water. If they are over 50% in the water, they will drown. 
+-See Layout
+
+Respawn
+-Respawn points are random throughout the map
+
+Rewards
+See rewards section under Economy of Satoshi Kingdom 
+
+Safe Zones
+-Need Safe Zones (yellow for now)
+-Safe Zones are areas of the map where players cannot shoot or be shot. 
+-Players cannot be captured in safe zones. 
+
+Satoshi Kingdom
+-This is the name of the entire world for BitQuest.
+-If a team would conquer all gridsquares and then all nations, then they would eventually capture the entire kingdom of Satoshi. 
+-Named after the creator of bitcoin
+
+Spawnpoint
+-Random place on map where users are dropped. 
+
+Training Facility
+-Users should have the option to transport there at any time.
+-The gridsquares surrounding this place should be yellow so players aren’t killed right away; (See also Kill Delay)
+-If not dropped near Training Facility then there should be a pop up that asks if they want to be transported to TF
+
+
+
+
+
+
+
+
+
+Transport
+-Transport is a generic vehicle that moves players around the board. 
+-Transports are neutral and do not belong to any team or nation. 
+-Players cannot shoot or be shot while in the transport. 
+-Could possibly just have players pay for transport instead of using TUBES
+-Users can purchase rides. (Need to discuss how this would work because we don’t want users to continue to use transports to 
+get out of trouble.)
+-MAX of 1 transport ride per round 
+
+Examples:
+-A player pays bond and is transported back to his home country. 
+-A player is captured and needs transported to that nation’s jail.
+-A player has pushed the button for the Training Facility. They should be transported there. 
+
+(NEED CLARIFICATION)
+
+Tubes - (Phase 2)
+-These are throughout the map that allows users to “jump” to another part of the map.  This will save travel time for users; 
+Allow each person to be able to set 1 up each game. If they close the map or die, but they have already set one up they should
+not keep getting extra tubes to set up. -Only 1 for each saved map;
+-MAX of 4 per nation
+-Players should be able to destroy their own Tubes  (Then they can set up a new one if available)
+-Could possibly just have players pay for transport instead of using TUBES
+(Not sure if this will be a thing or not) 
+
+Wallets
+-Players have cold wallets and hot wallet when they play BitQuest
+-Players have the OPTION at START to move funds from cold wallet to hot wallet
+-Should be a default amount that they start with because they will not know what they should have when they start 
+playing the first time. 
+(example:  300 coins in hot wallet)
+-coins and satoshis are the same thing
+-When a player is killed, he loses all the money in his hot wallet
+-When a player is killed, he does NOT lose any money in his cold wallet
+-Having this concept of wallets will spread knowledge and adoption for any new bitcoin users that are playing the game
+
+
+
+
+
+Economy of Satoshi Kingdom
+
+Individual Players
+Currency:
+The currency is simple… 1 satoshi = 1 coin
+1 Ammo = 1 coin
+1 Lifepoint = 1 coin 		(health)
+
+LDT 		Land_Deed_Token
+KDT		Kingdom_Deed_Token
+GS		Gridsquare
+
+Land
+Land has value but not in satoshis
+Land’s value is represented by LDTs
+
+Nations
+-Each nation - once captured by a team - is officially recognized as a nation by the entire Kingdom
+-That team then assumes control of the National Wallet
+-When a nation is completely taken over, there is a Land_Deed_Token (LDT) for that nation. That LDT for that nation is held
+by the same team until another team has completely taken every GS from the current team that holds the LDT for that nation. 
+-In the same way, once all nations have been taken by 1 team, then they receive the Kingdom_Deed_Token (KDT) for the entire Kingdom. 
+There should be a ceremony that shows that. That team then holds the KDT until the next nation-capture by an opposing team.
+Once a nation has be captured by a different team, the previous team that held the KDT loses it and it is returned to the
+game-moderator. 
+
+National Wallet
+A wallet that collects funds for that nation. 
+When a gridsquare is controled, the Land_Deed_Token is placed into that team’s National Wallet
+Even though a team may lose a lot of territory (gridsquares) they still have a national wallet. (NW)
+
+-Each gridsquare (GS) should have a Land_Deed_Token. (LDT) 
+-Whatever team conquers that GS then controls that corresponding LDT
+-There is 1 LDT per GS. The exact LDT represents ownership of that GS
+(When a GS is conquered, there should be a short 5 sec ceremony of transfer of ownership)
+-LDTs cannot be bought or sold
+
+
+
+
+
+
+Rewards
+There are rewards given to individuals for accomplishments. 
+
+Their team getting x number of LDT = x satoshi
+Their team getting control of KDT = x satoshi
+	(National Wallet getting KDT)
+Their team keeping control of KDT for 10 minutes = x satoshi
+National Wallet getting x number of LDT = x satoshi
+National Wallet keeping x number of LDT = x satoshi
